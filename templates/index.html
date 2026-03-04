@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G. Roshni | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div id="loader" class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <nav class="navbar glass-card">
+        <div class="nav-container">
+            <a href="#" class="logo">G<span>.</span> Roshni</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg">
+                <div class="gradient-sphere sphere-1"></div>
+                <div class="gradient-sphere sphere-2"></div>
+            </div>
+            <div class="hero-content" data-aos="fade-up">
+                <h1>G. Roshni</h1>
+                <h2 class="subtitle">BTech Computer Science Engineering Student | Aspiring Software Engineer</h2>
+                <p class="summary">
+                    "Passionate about building logical, efficient, and scalable software solutions. Focused on
+                    strengthening core Computer Science fundamentals while exploring Artificial Intelligence and modern
+                    application development."
+                </p>
+                <div class="typing-container">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </div>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#" class="btn btn-secondary">Download Resume</a>
+                    <a href="https://github.com/chandrasekharg737-dev" target="_blank" class="btn btn-glass">GitHub
+                        Profile</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text glass-card" data-aos="fade-up">
+                        <p>
+                            I am a dedicated Computer Science Engineering student at NIST University, currently in my
+                            second year through lateral entry (2025 batch). I completed my Diploma in Computer Science
+                            Engineering from Sanjay Memorial Institute of Technology and my 10th from DAV Public School,
+                            Berhampur, Odisha.
+                        </p>
+                        <p>
+                            My journey in technology started with a strong interest in coding and logical problem
+                            solving. Over time, this interest evolved into a commitment toward software development and
+                            Artificial Intelligence. I continuously work on strengthening my programming skills and core
+                            CS fundamentals to prepare for real-world software engineering challenges.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-card" data-aos="fade-left">
+                        <span class="timeline-date">2025 - Present</span>
+                        <h3>BTech – Computer Science Engineering</h3>
+                        <p>NIST University | Lateral Entry – Currently Second Year</p>
+                    </div>
+                    <div class="timeline-item glass-card" data-aos="fade-left" data-aos-delay="100">
+                        <h3>Diploma – Computer Science Engineering</h3>
+                        <p>Sanjay Memorial Institute of Technology</p>
+                    </div>
+                    <div class="timeline-item glass-card" data-aos="fade-left" data-aos-delay="200">
+                        <h3>10th Standard</h3>
+                        <p>DAV Public School, Berhampur, Odisha</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Technical Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card" data-aos="zoom-in">
+                        <h3>Programming</h3>
+                        <div class="skill-list">
+                            <div class="skill-item"><span>Java</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item"><span>Python</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item"><span>C</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card" data-aos="zoom-in" data-aos-delay="100">
+                        <h3>Core CS</h3>
+                        <div class="skill-list">
+                            <div class="skill-tags">
+                                <span class="tag">DSA</span>
+                                <span class="tag">DBMS</span>
+                                <span class="tag">OS</span>
+                                <span class="tag">COA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card" data-aos="zoom-in" data-aos-delay="200">
+                        <h3>Web & Tools</h3>
+                        <div class="skill-list">
+                            <div class="skill-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">GitHub</span>
+                                <span class="tag">VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card glass-card" data-aos="fade-up">
+                        <div class="project-info">
+                            <h3>Java Algorithm Implementations</h3>
+                            <p>Developed multiple Java-based programs including matrix operations, sorting, and pattern
+                                logic. Focused on algorithmic efficiency.</p>
+                            <div class="tech-stack">
+                                <span>Java</span>
+                                <span>Algorithms</span>
+                            </div>
+                            <a href="#" class="project-link"><i data-lucide="github"></i> View Source</a>
+                        </div>
+                    </div>
+                    <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-info">
+                            <h3>Array Operations Program</h3>
+                            <p>Data structure focused programs to perform sum, average, and search operations on arrays.
+                            </p>
+                            <div class="tech-stack">
+                                <span>Java</span>
+                                <span>Data Structures</span>
+                            </div>
+                            <a href="#" class="project-link"><i data-lucide="github"></i> View Source</a>
+                        </div>
+                    </div>
+                    <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-info">
+                            <h3>Basic Shell Scripting</h3>
+                            <p>Fundamental automation scripts to understand system-level command execution and logic.
+                            </p>
+                            <div class="tech-stack">
+                                <span>Bash</span>
+                                <span>Linux</span>
+                            </div>
+                            <a href="#" class="project-link"><i data-lucide="github"></i> View Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future Vision -->
+        <section id="future" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Future Vision</h2>
+                <div class="vision-grid">
+                    <div class="vision-card glass-card" data-aos="flip-up">
+                        <i data-lucide="cpu" class="vision-icon"></i>
+                        <h3>AI Expertise</h3>
+                        <p>Diving deep into Machine Learning and Neural Networks to build intelligent applications.</p>
+                    </div>
+                    <div class="vision-card glass-card" data-aos="flip-up" data-aos-delay="100">
+                        <i data-lucide="briefcase" class="vision-icon"></i>
+                        <h3>Industry Impact</h3>
+                        <p>Securing a position at a top-tier tech firm to contribute to scalable software solutions.</p>
+                    </div>
+                    <div class="vision-card glass-card" data-aos="flip-up" data-aos-delay="200">
+                        <i data-lucide="graduation-cap" class="vision-icon"></i>
+                        <h3>Continuous Learning</h3>
+                        <p>Pursuing advanced research and higher studies to stay at the forefront of technology.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="info-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>chandrasekharg737@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7008098715</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Berhampur, Odisha, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form glass-card" data-aos="fade-left">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-card">
+        <p>Designed & Developed by G. Roshni &copy; 2026</p>
+    </footer>
+
+    <!-- Chatbot UI -->
+    <div id="chat-widget">
+        <button id="chat-toggle" class="glass-card">
+            <i data-lucide="message-square"></i>
+        </button>
+
+        <div id="chat-window" class="glass-card">
+            <div class="chat-header">
+                <h3>AI Assistant 🤖</h3>
+                <button id="chat-close"><i data-lucide="x"></i></button>
+            </div>
+            <div id="chat-messages" class="chat-messages">
+                <div class="bot-message message slide-in">
+                    Hello! I'm G. Roshni's AI assistant. How can I help you today?
+                </div>
+            </div>
+            <div id="typing-indicator" class="typing-indicator hidden">
+                <span></span><span></span><span></span>
+            </div>
+            <form id="chat-form" class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Ask me about G. Roshni..." required>
+                <button type="submit"><i data-lucide="send"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
